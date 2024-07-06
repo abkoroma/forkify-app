@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Abu Koroma",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.35.0",
+    "fracty": "^1.0.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}
